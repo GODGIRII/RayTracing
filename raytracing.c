@@ -13,7 +13,7 @@ int main()
    SDL_Surface* surface = SDL_GetWindowSurface(window);
    SDl_Rect rect = (SDL_Rect) {200,200,200,200};
    SDL_FillRect(surface
-    SDL_Delay(500); 
+   SDL_Delay(500); 
 
 }
 
