@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <SDL2/SDL.h>
+#include <math.h>
+
+#define WIDTH 900
+#define HEIGHT 600 
+
+int main()
+{
+   SDL_Init( SDL_INIT_VIDEO);
+   SDL_Window* window = SDL_CreateWindow("Raytracing", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WIDTH, HEIGHT, 0);
+  
+   SDL_Surface* surface = SDL_GetWindowSurface(window);
+   SDl_Rect rect = (SDL_Rect) {200,200,200,200};
+   SDL_FillRect(surface
+    SDL_Delay(500); 
+
+}
+
